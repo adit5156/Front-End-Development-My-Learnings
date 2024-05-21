@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms</title>
+</head>
+<body style="font-family: sans-serif;">
+    <h1>HTML Form</h1>
+    <h2>Login Form</h2>
+    <form action="">
+
+        <p>
+            <div><label for="name">Your name</label></div>
+            <input type="text" id="name" placeholder="Enter your name" required>
+        </p>
+        <p>
+            <div><label for="email">Email</label></div>
+            <input type="email" id="email" placeholder="Enter your email">
+        </p>
+        <p>
+            <div><label for="number">Mobile Number</label></div>
+            <input type="tel" id="number" placeholder="Enter your Mobile Number">
+        </p>
+        <p>
+            <div><label for="password">Password</label></div>
+            <input type="password" id="password" placeholder="Enter your password">
+        </p>
+            <button>Submit</button>
+            <button type="reset">Reset</button>
+
+    </form>
+
+
+    <div>
+        <form action="https://youtube.com/results">
+            <h2><label for="yt-search">Youtube Search</label></h2>
+            <input type="text" name="search_query" id="yt-search">
+            <button>Search on YouTube</button>
+        </form>
+        <hr><br>
+        <form action="https://www.flipkart.com/search">
+            <h2><label for="flipkart-search">Flipkart Search</label></h2>
+            <input type="text" name="q" id="flipkart-search">
+            <button>Search on Flipkart</button>
+        </form>
+        <hr><br>
+        <form action="https://www.amazon.in/s">
+            <h2><label for="amazon-search">Amazon Search</label></h2>
+            <input type="text" name="k" id="amazon-search">
+            <button>Search on Amazon</button>
+        </form>
+        <hr><br>
+        <form action="https://www.google.com/search">
+            <h2><label for="google-search">Google Search</label></h2>
+            <input type="text" name="q" id="google-search">
+            <button>Search on Google</button>
+        </form>
+        <hr><br>
+        <form action="index.html">
+            <h2>My Form</h2>
+            <input type="text" placeholder="Please enter your name!" required>
+            <input type="number" placeholder="Please enter your mobile number" min="100" max="500">
+            <input type="password" placeholder="Please enter your password" minlength="6" maxlength="10">
+            <input type="email">
+            <input type="tel">
+            <input type="checkbox">
+            <input type="radio">
+            <input type="color">
+            <input type="date">
+            <input type="time">
+            <input type="file">
+            <br>
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        </form>
+    </div>
+</body>
+</html>
