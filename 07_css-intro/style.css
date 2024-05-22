@@ -1,0 +1,17 @@
+h1 {
+    color: green;
+}
+
+p {
+    color: coral;
+    font-size: 32px;
+    font-weight: 700;
+    font-family: sans-serif;
+    font-style: italic;
+    text-align: center;
+    /* text-decoration: overline wavy; */
+}
+
+a {
+    text-decoration: none;
+}
