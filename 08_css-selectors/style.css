@@ -1,0 +1,59 @@
+li {
+    font-weight: 600;
+    font-style: italic;
+    font-size: 32px;
+}
+
+.html {
+    color: #DD4B25;
+}
+
+.css {
+    color: #254BDD;
+}
+
+.js {
+    color: #EFD81D;
+}
+
+.react {
+    color: #61DAFB;
+}
+
+.tailwind {
+    color:#16BECB;
+}
+
+/* [class] {
+    /* background-color: green; */
+/* } */
+
+[aditya] {
+    background-color: hotpink;
+}
+
+[name="Aditya Singh"] {
+    background-color: #EFD81D;
+}
+
+.web p {
+    background-color: coral;
+    cursor: pointer;
+}
+
+.web p:hover {
+    background-color: rgb(213, 187, 146);
+}
+
+h1 {
+    background-color: aquamarine;
+}
+
+h1:hover {
+    cursor: pointer;
+    background-color: rgb(0, 255, 170);
+}
+
+.first:hover {
+    color: orangered;
+}
