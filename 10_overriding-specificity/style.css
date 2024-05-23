@@ -1,0 +1,52 @@
+li.html {
+    background-color: darkolivegreen !important;
+    color: rgb(255, 0, 0) !important;
+}
+
+li {
+    font-weight: 400;
+    background-color: rgb(252, 0, 176) !important;
+    color: aquamarine !important;
+}
+
+li {
+    background-color: chocolate !important;
+}
+
+/* #html {
+    background-color: chartreuse !important;
+} */
+
+/* #html.html {
+    background-color: darkmagenta;
+} */
+
+#html {
+    background-color: darkmagenta;
+}
+
+#html {
+    background-color: deeppink;
+}
+
+
+
+.html {
+    background-color: cadetblue;
+}
+
+
+
+li {
+    font-weight: 500;
+    background-color: orange;
+}
+li {
+    font-weight: 700;
+    background-color: cornflowerblue;
+    color: rgb(109, 7, 7);
+}
+
+.html {
+    background-color: crimson;
+}
