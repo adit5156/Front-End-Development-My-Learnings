@@ -1,0 +1,17 @@
+.one {
+    /* max-width: 500px; */
+    width: 300px;
+    height: 200px;
+    background-color: aquamarine;
+    /* min-height: 100px; */
+    /* word-break: break-all; */
+    padding: 20px;
+}
+
+.two {
+    background-color: blueviolet;
+}
+
+.one-child {
+    width: 50%;
+}
