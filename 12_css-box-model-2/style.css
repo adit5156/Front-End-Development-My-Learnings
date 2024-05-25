@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+    /* box-sizing: content-box; */
+}
+
+body {
+    margin: 0;
+}
+
+h1 {
+    /* margin: 0; */
+    background-color: palevioletred;
+}
+
+p {
+    /* margin: 0; */
+}
+
+.one {
+    background-color: aquamarine;
+    width: 300px;
+    padding: 25px;
+    margin: 40px;
+    border-radius: 10px;
+    border: 4px solid teal;
+    outline: 20px solid red;
+}
+
+.two {
+    background-color: burlywood;
+    padding: 25px;
+    width: 500px;
+    height: 500px;
+    border: 8px solid hotpink;
+    outline: 15px solid rgb(209, 2, 246);
+    margin: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.two img{
+    width: 120%;
+    margin-top: -90px;
+    margin-left: -14px;
+}
