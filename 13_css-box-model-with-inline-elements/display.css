@@ -4,8 +4,9 @@ body {
 
 .inline-block {
     background-color: coral;
-    display: inline-block;
     width: 500px;
+    display: inline-block;
+    display: none;
 }
 
 .html {
@@ -30,5 +31,16 @@ img {
 .iframe1 {
     width: 480px;
     height: 360px;
+    margin: 20px;
+}
+
+video {
+    width: 480px;
+    margin: 20px;
+}
+
+.iframe2 {
+    width: 1080px;
+    height: 1080px;
     margin: 20px;
 }
