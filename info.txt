@@ -1,0 +1,12 @@
+Replaced Inline Elements :- they are inline elements but inherit all the properties of block elements as if they are inline-block elements.
+Examples of Replaced Inline Elements are:- 
+1. img tag
+2. video tag
+3. iframe tag
+
+Non Replaced Inline Elements :- they are just identical to the inline elements where width and height are auto. Width, height can't be setted. Also when we increase the padding as well as border, they overlap upon the other elements. Margin can only be applied on the left hand side as well as right hand side (margin-inline) only. 
+Some examples of Non Replaced Inline Elements are:-
+1. span
+2. b => bold tag
+3. i => italic tag
+4. a => anchor tag
