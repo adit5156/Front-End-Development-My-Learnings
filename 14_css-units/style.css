@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+}
+
+section {
+    width: 400px;
+    padding: 10%;
+    background-color: blueviolet;
+    /* font-size: 32px; */
+    /* box-sizing: border-box; */
+}
+
+.box {
+    background-color: chartreuse;
+    width: 50%;
+    padding: 10%;
+    margin: 10%;
+    font-size: 50%;
+}
