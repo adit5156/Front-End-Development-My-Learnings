@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+}
+
+section {
+    width: 50vw;
+    padding: 10vw;
+    margin: 10vw;
+    border: 2vw solid red;
+    font-size: 1vw;
+    /* height: 50vh; */
+    /* width: 400px;
+    padding: 10%; */
+    /* font-size: 32px; */
+    /* box-sizing: border-box; */
+    background-color: blueviolet;
+}
+
+.box {
+    background-color: chartreuse;
+    width: 50%;
+    /* height: 50%; */
+    padding: 24px;
+    box-sizing: border-box;
+}
