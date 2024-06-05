@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.hashtag-header {
+    padding: 4rem;
+    background-color: #065FD4;
+    background-image: url(./images/background.png);
+    color: white;
+    background-repeat: no-repeat;
+    background-size: 260px;
+    background-position: 100% 40%;
+}
+
+.hashtag-header h1 {
+    margin: 0;
+    margin-bottom: 1rem;
+    font-size: 3em;
+}
+
+.hashtag-header span {
+    font-size: 2rem;
+}
+
+.hashtag-header img {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 100%;
+    border: 5px solid white;
+    vertical-align: middle;
+}
+
+img + img {         /* adjacent sibling selector*/
+    margin-left: -1rem;
+}
