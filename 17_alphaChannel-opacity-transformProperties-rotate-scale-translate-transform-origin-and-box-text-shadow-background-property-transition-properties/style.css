@@ -1,0 +1,47 @@
+main {
+  position: relative;
+  height: 400px;
+  width: 600px;
+  /* background-color: darkkhaki; */
+}
+
+.box {
+  height: 150px;
+  width: 300px;
+  /* background-color: rgb(0, 128, 0); */
+  background-image: url(https://images.unsplash.com/photo-1511576661531-b34d7da5d0bb?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: -10px -10px;
+  background-color: greenyellow;
+  /* transform: scale(5); */
+  /* transform-origin: 0 0; */
+  /* transform-origin: 100% 100%; */
+  /* opacity: 0.65; */
+  /* transform: rotate(90deg); */
+  /* transform: translateX(150px); */
+  /* transform: translateY(150px); */
+  /* transform: translateX(100%); */
+  /* transform: translateY(100%); */
+  /* transform: translate(150px,150px); */
+  padding: 15px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  /* transform: translate(-50%, -50%) rotate(45deg) scale(2); */
+  transform: translate(-50%, -50%);
+  /* box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.35) ;*/
+  box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.348);
+  border-radius: 10px;
+
+  transition: transform 200ms ease-in-out 0s;
+}
+
+.box h1 {
+  text-shadow: 2px 2px 5px blue;
+}
+
+.box:hover {
+    transform: translate(-50%, -50%) rotate(45deg) scale(2);
+    background: aquamarine;
+}
