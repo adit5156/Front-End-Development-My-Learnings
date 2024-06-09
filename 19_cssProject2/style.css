@@ -34,3 +34,12 @@ body {
 img + img {         /* adjacent sibling selector*/
     margin-left: -1rem;
 }
+
+.img-container {
+    position: absolute;
+    right: 720px;
+    bottom: 495px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+}
